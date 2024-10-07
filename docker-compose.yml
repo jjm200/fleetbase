@@ -54,7 +54,7 @@ services:
       target: app-dev
       args:
         ENVIRONMENT: development
-        GITHUB_AUTH_KEY: ${GITHUB_AUTH_KEY}
+        GITHUB_AUTH_KEY: 
     volumes:
       - console-build:/fleetbase/console
     environment:
