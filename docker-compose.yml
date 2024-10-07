@@ -65,10 +65,10 @@ services:
       CACHE_PATH: /fleetbase/api/storage/framework/cache
       CACHE_URL: tcp://cache
       REDIS_URL: tcp://cache
-      SESSION_DOMAIN: localhost
+      SESSION_DOMAIN: 116.202.243.29
       BROADCAST_DRIVER: socketcluster
-      MAIL_FROM_NAME: Fleetbase
-      APP_NAME: Fleetbase
+      MAIL_FROM_NAME: Dash Delivery
+      APP_NAME: Dash Delivery
       LOG_CHANNEL: daily
       MODEL_CACHE_ENABLED: 'true'
       RESPONSE_CACHE_ENABLED: 'true'
